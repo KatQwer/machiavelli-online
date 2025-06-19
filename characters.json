@@ -1,0 +1,70 @@
+[
+    {
+        "id": 1,
+        "name": "Assassin",
+        "ability": {
+            "function": "kill()",
+            "description": "Choose a character to kill. If that character is chosen by another player, that player can't do anything in their turn."
+        }
+    },
+    {
+        "id": 2,
+        "name": "Thief",
+        "ability": {
+            "function": "steal()",
+            "description": "Choose a character to steal from. If that character is chosen by another player, you steal all of their gold."
+        }
+    },
+    {
+        "id": 3,
+        "name": "Magician",
+        "ability": {
+            "function": "swap()",
+            "description": "Swap your building cards with a player of your choosing."
+        }
+    },
+    {
+        "id": 4,
+        "name": "King",
+        "color": "Yellow",
+        "ability": {
+            "function": "elect()",
+            "description": "In the upcoming turn, you can pick your character first and see what character(s) gets put away for that turn."
+        }
+    },
+    {
+        "id": 5,
+        "name": "Bishop",
+        "color": "Blue",
+        "ability": {
+            "function": "preach()",
+            "description": "Your buildings cannot be destroyed by the Warlord this turn."
+        }
+    },
+    {
+        "id": 6,
+        "name": "Merchant",
+        "color": "Green",
+        "ability": {
+            "function": "earn()",
+            "description": "You can grab an extra coin when it's your turn."
+        } 
+    },
+    {
+        "id": 7,
+        "name": "Architect",
+        "ability": {
+            "function": "construct()",
+            "description": "You can grab an extra 2 building cards when it's your turn."
+        }
+    },
+    {
+        "id": 8,
+        "name": "Warlord",
+        "color": "Red",
+        "ability": {
+            "function": "destroy()",
+            "description": "You can destroy a building of choice (except the Bishop's) with it's value minus 1 coin."
+        }
+    }
+]

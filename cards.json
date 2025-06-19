@@ -1,0 +1,231 @@
+[
+    {
+        "name": "Property",
+        "value": 3,
+        "extra_value": 0,
+        "color": "Yellow",
+        "amount": 5
+    },
+    {
+        "name": "Castle",
+        "value": 4,
+        "extra_value": 0,
+        "color": "Yellow",
+        "amount": 4
+    },
+    {
+        "name": "Palace",
+        "value": 5,
+        "extra_value": 0,
+        "color": "Yellow",
+        "amount": 3
+    },
+    {
+        "name": "Tavern",
+        "value": 1,
+        "extra_value": 0,
+        "color": "Green",
+        "amount": 5
+    },
+    {
+        "name": "Stores",
+        "value": 2,
+        "extra_value": 0,
+        "color": "Green",
+        "amount": 3
+    },
+    {
+        "name": "Market",
+        "value": 2,
+        "extra_value": 0,
+        "color": "Green",
+        "amount": 3
+    },
+    {
+        "name": "Trading House",
+        "value": 3,
+        "extra_value": 0,
+        "color": "Green",
+        "amount": 3
+    },
+    {
+        "name": "Port",
+        "value": 4,
+        "extra_value": 0,
+        "color": "Green",
+        "amount": 3
+    },
+    {
+        "name": "Town Hall",
+        "value": 5,
+        "extra_value": 0,
+        "color": "Green",
+        "amount": 2
+    },
+    {
+        "name": "Temple",
+        "value": 1,
+        "extra_value": 0,
+        "color": "Blue",
+        "amount": 3
+    },
+    {
+        "name": "Church",
+        "value": 2,
+        "extra_value": 0,
+        "color": "Blue",
+        "amount": 3
+    },
+    {
+        "name": "Monastery",
+        "value": 3,
+        "extra_value": 0,
+        "color": "Blue",
+        "amount": 3
+    },
+    {
+        "name": "Cathedral",
+        "value": 5,
+        "extra_value": 0,
+        "color": "Blue",
+        "amount": 2
+    },
+    {
+        "name": "Watchtower",
+        "value": 1,
+        "extra_value": 0,
+        "color": "Red",
+        "amount": 3
+    },
+    {
+        "name": "Prison",
+        "value": 2,
+        "extra_value": 0,
+        "color": "Red",
+        "amount": 3
+    },
+    {
+        "name": "Tournament Field",
+        "value": 3,
+        "extra_value": 0,
+        "color": "Red",
+        "amount": 3
+    },
+    {
+        "name": "Stronghold",
+        "value": 5,
+        "extra_value": 0,
+        "color": "Red",
+        "amount": 2
+    },
+    {
+        "name": "Cemetary",
+        "value": 5,
+        "extra_value": 0,
+        "color": "Purple",
+        "amount": 1,
+        "ability": {
+            "function": "resurrect()",
+            "description": "When the warlord destroys a building, you can pay 1 coin to put the building card into your deck."
+        }
+    },
+    {
+        "name": "Library",
+        "value": 6,
+        "extra_value": 0,
+        "color": "Purple",
+        "amount": 1,
+        "ability": {
+            "function": "keep()",
+            "description": "If you take cards in the beginning of your turn, you can keep both of them."
+        }
+    },
+    {
+        "name": "Magician School",
+        "value": 6,
+        "extra_value": 0,
+        "color": "Purple",
+        "amount": 1,
+        "ability": {
+            "function": "money()",
+            "description": "If you take coins in the beginning of your turn, you can choose the color of the Magician School. Then you'll get a coin if you choose King, Bishop, Merchant or Warlord."
+        }
+    },
+    {
+        "name": "Dragon's Gate",
+        "value": 6,
+        "extra_value": 2,
+        "color": "Purple",
+        "amount": 1,
+        "ability": {
+            "function": null,
+            "description": "The building costs 6 coins, but has a value of 8 coins at the end of the game."
+        }
+    },
+    {
+        "name": "University",
+        "value": 6,
+        "extra_value": 2,
+        "color": "Purple",
+        "amount": 1,
+        "ability": {
+            "function": null,
+            "description": "The building costs 6 coins, but has a value of 8 coins at the end of the game."
+        }
+    },
+    {
+        "name": "Miracle's Court",
+        "value": 2,
+        "extra_value": 0,
+        "color": "Purple",
+        "amount": 1,
+        "ability": {
+            "function": null,
+            "description": "When counting your points, you can choose the color of the Miracle's Court."
+        }
+    },
+    {
+        "name": "Dungeon",
+        "value": 3,
+        "extra_value": 0,
+        "color": "Purple",
+        "amount": 2,
+        "ability": {
+            "function": "no()",
+            "description": "The dungeon cannot be destroyed by the Warlord."
+        }
+    },
+    {
+        "name": "Observatory",
+        "value": 5,
+        "extra_value": 0,
+        "color": "Purple",
+        "amount": 1,
+        "ability": {
+            "function": "more()",
+            "description": "If you take cards in the beginning of your turn, you can grab 3 building cards, choose 1 and put the rest back in the pile."
+        }
+    },
+    {
+        "name": "Laboratory",
+        "value": 5,
+        "extra_value": 0,
+        "color": "Purple",
+        "amount": 1,
+        "ability": {
+            "function": "return()",
+            "description": "During your turn, if you place a building card, you can take back one coin from the cost."
+        }
+    },
+    {
+        "name": "Workplace",
+        "value": 5,
+        "extra_value": 0,
+        "color": "Purple",
+        "amount": 1,
+        "ability": {
+            "function": "real_estate()",
+            "description": "During your turn, only once, you can pay 3 coins to grab 2 building cards."
+        }
+    }
+]
